@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.bg{
+    width: 7.5rem;
+    height: 8.89rem;
+    background: url("../img/scen.png") no-repeat center;
+    background-size: 7.5rem 8.89rem;
+    position: relative;
+}
+.bg div{
+    width: 0.53rem;
+    height: 0.77rem;
+    background-size: contain;
+    position: absolute;
+}
+.showbox{
+    width: 1.24rem;
+    height: auto;
+    position:fixed;
+    right: 0.24rem;
+    top:0.62rem;
+}
+.play{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url("../img/Aplay.png") no-repeat center;
+    background-size: contain;
+    margin-bottom: 1.2rem;
+    margin-left: 0.58rem;
+}
+.pause{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url("../img/Apause.png") no-repeat center;
+    background-size: contain;
+}
+.life{
+    width: 1.22rem;
+    height: 1.21rem;
+    background: url("../img/Health.png") no-repeat center;
+    background-size: contain;
+    margin-bottom: 0.5rem;
+}
+.live{
+    position: absolute;
+    font-size: 0.36rem;
+    left: 0.5rem;
+}
+.grade {
+    width: 1.22rem;
+    height: 1.21rem;
+    background: url("../img/Point.png") no-repeat center;
+    background-size: 1.22rem 1.21rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.36rem;
+    text-align: center;
+}
+.mark{
+    position: absolute;
+    font-size: 0.36rem;
+    left: 0.3rem;
+}
+.play1{
+    width: 0.99rem;
+    height: 0.98rem;
+    background: url("../img/Play.png") no-repeat center;
+    background-size: contain;
+    margin-left: 0.2rem;
+}
+.pause1{
+    width: 0.99rem;
+    height: 0.98rem;
+    background: url("../img/Pause.png") no-repeat center;
+    background-size: 0.99rem 0.98rem;
+    margin-left: 0.2rem;
+}
+
+.keybg{
+    width: 7.5rem;
+    height: 4.44rem;
+    background: url("../img/Key.png") no-repeat center;
+    background-size: 7.5rem 4.44rem;
+    overflow: hidden;
+}
+.keybox{
+    width: 7.02rem;
+    height: 4rem;
+    background: rgba(42,111,220,0.4);
+    margin-top: 0.25rem;
+    margin-left: 0.24rem;
+    overflow: hidden;
+    border-radius: 0.05rem;
+}
+.keyboard{
+    width: 6.69rem;
+    height: 2.96rem;
+    /*background: lime;*/
+    margin-top: 0.49rem;
+    margin-left: 0.15rem;
+}
+.keyboard1{
+    width: 6.69rem;
+    height: 0.8rem;
+    /*background: red;*/
+    margin-bottom: 0.28rem;
+    display: flex;
+    justify-content: space-between;
+}
+.key{
+    width: 0.5rem;
+    height: 0.8rem;
+    background: url("../img/Letter.png") no-repeat center;
+    background-size: 0.5rem 0.8rem;
+    box-shadow: 0.02rem 0.02rem 0.1rem 0.01rem #786733;
+    font-size: 0.35rem;
+    color: #000;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.keyboard2{
+    width: 6rem;
+    margin: 0 auto;
+}
+.keyboard3{
+    width: 4.62rem;
+    margin-left:1.05rem;
+    margin-top: 0.28rem;
+}
+.alertbox{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+.massage{
+    width: 4.3rem;
+    height: 4.49rem;
+    background: url("../img/gameover.png") no-repeat center;
+    background-size: contain;
+    margin:1rem auto;
+}
+.btn{
+    width: 2.63rem;
+    height: 0.6rem;
+    background: url("../img/btn.png") no-repeat center;
+    background-size: contain;
+    position: fixed;
+    top:4.5rem;
+    left:2.45rem;
+}
+.point{
+    width: 0.9rem;
+    height: 0.6rem;
+    position: fixed;
+    top:3.7rem;
+    left:3.6rem;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.cloud{
+    width: 4.95rem;
+    height: 0.56rem;
+    background: url("../img/clound_06.png") no-repeat center;
+    background-size: contain;
+    position: fixed;
+    top:1rem;
+    left:1.25rem;
+    animation:donghua  0.8s 1s infinite ;
+}
+@keyframes donghua {
+    from{
+        left:1rem;
+    }
+    50%{
+        left:1.5rem;
+    }
+    to{
+        left:1rem;
+    }
+}
